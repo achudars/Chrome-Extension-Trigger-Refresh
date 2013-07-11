@@ -1,7 +1,7 @@
 Chrome Extension Trigger Refresh
 ================================
 
-This is an unpublished* Chrome Extension to trigger tab refresh for selected pages on CTRL+SHIFT key combo.
+This is an unpublished* Chrome Extension to trigger tab refresh for selected pages on CTRL+S key combo.
 
 *unpublished because I can't be bothered to pay a $5 fee for publishing this super simple extension.
 
@@ -27,7 +27,7 @@ Installation (as an unpacked extension - for temporary tryout)
 Usage Scenario
 ================================
 Let's say you are developing inside the browser and want to reload the result page each time you apply the changes to the development page.
-In this case you would go to the result page, click on the extension page and capture the tab URL. Now you can navigate to any other tab or window and from there refresh the result tab by pressing CTRL+SHIFT.
+In this case you would go to the result page, click on the extension page and capture the tab URL. Now you can navigate to any other tab or window and from there refresh the result tab by pressing CTRL+S.
 
 Here's an example with Codepen.io:
 

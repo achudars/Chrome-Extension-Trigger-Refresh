@@ -13,8 +13,8 @@ document.onkeydown=function(e){
 	if(e.which === 17) {
 		isCtrl=true;
 	}
-	if(e.which === 16 && isCtrl === true) {
-		/* the code below will execute when CTRL + SHIFT are pressed */
+	if(e.which === 83 && isCtrl === true) {
+		/* the code below will execute when CTRL + S are pressed */
 		// signal to the background page that it's time to refresh
 		chrome.runtime.sendMessage({type:"refresh"});
 		/* end of code */
