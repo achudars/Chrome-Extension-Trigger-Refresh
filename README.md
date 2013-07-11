@@ -37,6 +37,6 @@ Here's an example with Codepen.io:
   * press the extension button
   * press the Capture! button
   * that's it (you'll see the URL below of teh captured tab if everything worked)
-![Alt text](http://i.imgur.com/xB2uxt7.png)
+![Alt text](http://i.imgur.com/de41uNQ.png)
 * It is very convenient in a dual monitor scenario - having code on monitor #1 and reload page - on monitor #2
-![Alt text](http://i.imgur.com/Ihsk1zJ.png)
+![Alt text](http://i.imgur.com/4XgYOOS.png)
