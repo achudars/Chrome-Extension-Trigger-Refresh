@@ -5,7 +5,14 @@ This is an unpublished* Chrome Extension to trigger tab refresh for selected pag
 
 *unpublished because I can't be bothered to pay a $5 fee for publishing this super simple extension.
 
-Installation
+Quick Installation
+================================
+
+* Download the 'trigger refresh.crx' file and drag it to the [chrome://extensions/](chrome://extensions/)
+
+
+
+Installation (as an unpacked extension - for temporary tryout)
 ================================
 
 * Download files from this repository and extract them in a folder
