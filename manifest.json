@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trigger Refresh",
+  "description": "This extension allows you to trigger page refresh on key combinations from any other tab or window.",
+  "version": "1.0",
+
+  "icons": {"16": "16.png", "48": "48.png", "128": "128.png"},
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "all_frames": true,
+      "run_at" : "document_start",
+      "js": ["contentscript.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "48.png",
+    "default_popup": "extension.html"
+  },
+
+   "web_accessible_resources": ["script.js"],
+   "permissions": ["tabs", "notifications"]
+}

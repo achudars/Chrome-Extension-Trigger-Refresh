@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension</title>
+  <style>
+  body {
+    font-size: 14px;
+    color: #000;
+    width: 300px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+  }
+  .highlight {
+    font-weight: bold;
+  }
+  button {
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #748A89;
+    border-radius: 2px;
+    cursor:pointer;
+  }
+  button:hover {
+    cursor:pointer;
+    background: #F8BC62;
+    border-style:outset;
+  }
+  button:active {
+    border-style:inset;
+  }
+  p em {
+    font-size: 10px;
+  }
+  #page {
+    overflow: auto;
+    font-size: 12px;
+    background: #F8BC62;
+    border-radius: 2px;
+    padding: 2px;
+  }
+  </style>
+</head>
+<body>
+    <p><span class="highlight">Step 1.</span> Navigate to tab you want to refresh and click the 'capture' button</p>
+    <button type="button" id="capture">Capture!</button>
+    <p><span class="highlight">Tab to reload:</span></p>
+    <p id="page">&nbsp;</p>
+    <p><span class="highlight">Step 2.</span> Now you can reload that tab from anywhere by pressing CTRL+SHIFT simultaneously</p>
+    <p><em>*You may hide this popup by clicking on the Extension Button<em></p>
+    <script src="script.js"></script>
+</body>
+</html>
