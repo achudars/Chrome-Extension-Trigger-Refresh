@@ -1,8 +1,9 @@
 Chrome Extension Trigger Refresh
 ================================
 
-This is an unpublished* Chrome Extension to trigger tab refresh for selected pages on CTRL+SHIFT key combinations.
-*Unpublished because I can't be bothered to pay a $5 fee for publishing this super simple extension.
+This is an unpublished* Chrome Extension to trigger tab refresh for selected pages on CTRL+SHIFT key combo.
+
+*unpublished because I can't be bothered to pay a $5 fee for publishing this super simple extension.
 
 Installation
 ================================
